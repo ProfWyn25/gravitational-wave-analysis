@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+figures/*.png
+figures/*.pdf
+
+# Personal study materials
+/lessons/
+/study-notes/
